@@ -203,6 +203,21 @@ h3:after{
     vertical-align: middle;
     margin-top: -3px;
 }
+
+/*
+.icon-mini{
+    display: inline-block;
+    width: 15px;
+    text-align:center;
+    color: black;
+    font-size: 5%;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -3px;
+    
+}
+*/
+
 /* #ee761bdc*/
 
 /*//////////////buttons////////////////*/
@@ -342,7 +357,6 @@ h3:after{
     font-size: 150%;
     font-weight: 300;
     padding: 8px;
-    float: left;
     margin-right: 15px;
 }
 
@@ -461,13 +475,15 @@ h3:after{
 //////-----------SECTION-PLANS/////////////////////*/
 
 .section-plans{
-    background-color: rgb(241, 237, 237);
+    background-color: #fff;
     padding-top:45px;
     padding-bottom:100px;
 }
 
 .plan-box{
-    background-color:white;
+    border: 1px solid rgb(241, 237, 237);
+    box-shadow: 5px 5px 7px  rgb(133, 132, 132);
+    background-color: #fff;
     border-radius: 5px;
     width: 90%;
     margin-left: 5%;
@@ -487,23 +503,43 @@ h3:after{
 }
 
 .plan-box ul{
+    padding-top:25px;
+    margin-bottom: 5pxpx;
     padding-left:27px;
     display: block;
     text-align: left;
     text-decoration: none;
     list-style: none;
-    padding-bottom:40px;
 }
 .plan-box li{
-    padding-bottom: 16px;
+    padding-lefT:-20px;
+    padding-bottom: 20px;
     font-weight: 100;
 }
 
 .plan-box div{
     padding: 15px;
-    border-bottom: 1px solid rgb(231, 230, 230);
+    border-bottom: 1px solid rgb(209, 207, 207);
 }
 
+.plan-box div:first-child{
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child{
+    text-align: center;
+    border:0;                       
+}                
+
+/*ce se intampla aici??*/
+/*primul buton*/
+
+.plan-box i{ 
+    padding-right: 10px;
+    color: #d76310;
+}
 
 /* buna ziua */
 /* SARUMANA DOMNISOARA */
