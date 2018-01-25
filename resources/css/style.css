@@ -222,7 +222,8 @@ h3:after{
 
 /*//////////////buttons////////////////*/
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type="submit"] {
     display:inline-block;
     padding: 10px 30px;
     text-decoration: none;
@@ -233,7 +234,8 @@ h3:after{
 }
 
 .btn-full:link,
-.btn-full:visited{
+.btn-full:visited,
+input[type="submit"]{
     background-color:#e677228a;
     border-radius: 200px;
     margin-right: 5px;
@@ -251,7 +253,8 @@ h3:after{
 }
 
 .btn-full:hover,
-.btn-full:active{
+.btn-full:active,
+input[type="submit"]{
     background-color: #cf6717dc;
     border:#cf6717dc;
 }
@@ -540,6 +543,107 @@ h3:after{
     padding-right: 10px;
     color: #d76310;
 }
+
+
+/*///////////form///////////*/
+/*-----------
+---------------------------------------------*/
+
+.contact-form{
+    width:60%;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea{
+    width:100%;
+    padding: 7px;
+    margin-bottom: 7px;
+    border-radius: 3px;
+    border: 1px solid rgb(180, 180, 180);
+}
+
+textarea{
+    height:100px;
+}
+
+input[type="checkbox"]{
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {outline: none;}
+
+/*///////////footer///////////*/
+/*-----------
+---------------------------------------------*/
+
+footer{
+    margin-top: 30px;
+    padding-top: 30px;
+    background-color: rgb(58, 58, 58);
+}
+.footer-nav{
+    list-style: none;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.social-nav{
+    font-size: 23px;
+    text-align: right;
+    list-style-type: none;
+}
+
+.footer-nav a:link,
+.footer-nav a:visited{
+    text-decoration: none;
+    font-weight: 300;
+    margin-right: 10px;
+    color: rgb(190, 190, 190);
+    font-weight: 100;
+}
+
+.footer-nav a:hover,
+.footer-nav a:active{
+    text-decoration: none;
+    font-weight: 300;
+    margin-right: 10px;
+    color: white;
+    font-weight: 100;
+}
+
+.social-nav a:not(:last-child) {
+    margin-right: 30px;
+    text-align: center;
+}
+
+.social-nav a:link,
+.social-nav a:visited{
+    color: rgb(190, 190, 190);
+    font-weight: 100;
+}
+
+.social-nav a:hover,
+.social-nav a:active{
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}
+footer p{
+    padding-top:45px;
+    padding-bottom: 60px;
+    color:rgb(190, 190, 190);
+}
+
+
+
+
+
+
+
+
 
 /* buna ziua */
 /* SARUMANA DOMNISOARA */
